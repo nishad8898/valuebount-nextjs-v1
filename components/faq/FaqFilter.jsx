@@ -22,6 +22,7 @@ const FaqFilter = () => {
   useEffect(() => {
     const generalFaq = FAQData.filter((faq) => faq.type.includes('general'))
     setFilterData(generalFaq)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const handleClick = (type) => {

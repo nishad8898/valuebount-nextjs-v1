@@ -71,7 +71,6 @@
 //                 </div>
 //                 <p>{data.serviceDetailsOne}</p>
 //                 <p>{data.serviceDetailsTwo}</p>
-                
 
 //                 <h3>What to Expect</h3>
 //                 <p dangerouslySetInnerHTML={{ __html:data.serviceExpectation}}/>
@@ -112,7 +111,6 @@
 // }
 
 // export default ServiceContent
-
 
 // 'use client'
 // import ServiceList from '@/data/serviceData'
@@ -205,11 +203,8 @@
 
 // export default ServiceContent
 
-
-
 'use client'
-import ServiceList from '@/data/serviceData'
-import { faAngleRight, faX } from '@fortawesome/free-solid-svg-icons'
+import { faX } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -251,7 +246,6 @@ const ServiceContent = ({ data }) => {
                     src={data.featureImage}
                     alt="service images"
                     className="w-full rounded"
-                
                     width={788}
                     height={450}
                   />

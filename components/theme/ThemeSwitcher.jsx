@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 'use client'
 // import { DarkMode, LightMode } from '@/data/svgImages'
 import { useTheme } from 'next-themes'
@@ -10,6 +11,7 @@ const ThemeSwitcher = () => {
   useEffect(() => {
     setMount(false)
     setTheme('light') // set default theme to light
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   //   return mount ? (

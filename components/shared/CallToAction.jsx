@@ -13,7 +13,7 @@ const CallToAction = ({ title }) => {
         <div className=" mx-auto text-center">
           <h2 className="mx-auto mb-5 max-w-[800px] text-[48px] font-semibold max-lg:text-[32px]">{title}</h2>
           <p className="mx-auto mb-12 max-w-[400px] max-lg:mt-6">
-           Unlock the full potential of your digital experience with our expert Drupal solutions.
+            Unlock the full potential of your digital experience with our expert Drupal solutions.
           </p>
           <Link href="/contact" className="btn">
             Get started Today

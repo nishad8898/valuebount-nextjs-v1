@@ -1,5 +1,3 @@
-import Footer from '@/components/footer/Footer'
-import SecondaryNavbar from '@/components/navbar/SecondaryNavbar'
 import NewsLetter from '@/components/shared/NewsLetter'
 import getMarkDownData from '@/utils/getMarkDownData'
 import ReactMarkdown from 'react-markdown'
