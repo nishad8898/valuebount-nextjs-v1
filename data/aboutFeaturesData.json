@@ -1,0 +1,25 @@
+{
+  "AboutFeaturesData": [
+    {
+      "id": 1,
+      "iconLight": "/images/about/passion.svg",
+      "iconDark": "/images/about/passion-dark.svg",
+      "title": "Empathy",
+      "desc": "We deliver tailored solutions by understanding unique needs and building meaningful connections."
+    },
+    {
+      "id": 2,
+      "iconLight": "/images/about/transparency.svg",
+      "iconDark": "/images/about/transparency-dark.svg",
+      "title": "Excellence",
+      "desc": "We strive for unparalleled quality, delivering exceptional value and impactful results."
+    },
+    {
+      "id": 3,
+      "iconLight": "/images/about/mission.svg",
+      "iconDark": "/images/about/mission-dark.svg",
+      "title": "continuous learning",
+    "desc": "We faster growth through continuous learning, empowering our team to stay ahead."
+    }
+  ]
+}
