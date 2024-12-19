@@ -1,4 +1,4 @@
-import { HeroDarkShapeSVG, HeroLightShapeSVG } from '@/data/svgImages'
+import { HeroDarkShapeSVG } from '@/data/svgImages'
 import FadeUpAnimation from '../animations/FadeUpAnimation'
 
 const HeroService = () => {
