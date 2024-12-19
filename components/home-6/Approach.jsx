@@ -65,7 +65,7 @@ const Approach = () => {
             </motion.div>
 
             <div className="absolute left-1/2 top-1/2 -z-10 flex w-full -translate-x-1/2 -translate-y-1/2 max-md:flex-col">
-              <div className="h-[442px] w-full  rounded-full bg-primary-200/25 blur-[145px]"></div>
+              <div className="h-[442px] w-full  rounded-full bg-[url('/images/hero-gradient.png')] blur-[145px]"></div>
             </div>
           </div>
         </div>

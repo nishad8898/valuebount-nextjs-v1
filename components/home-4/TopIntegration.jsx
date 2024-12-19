@@ -31,7 +31,7 @@ const TopIntegration = () => {
                   i={i}
                   className="rounded-medium bg-white p-2.5 shadow-box dark:bg-dark-200"
                   key={items.id}>
-                  <div className="rounded border border-dashed border-gray-100 p-10 text-center dark:border-borderColor-dark ">
+                  <div className="flex h-full items-center justify-center rounded border border-dashed border-gray-100 p-10 text-center dark:border-borderColor-dark ">
                     <Image
                       src={items.image}
                       alt="value image"
@@ -39,8 +39,6 @@ const TopIntegration = () => {
                       width={120}
                       height={120}
                     />
-                    {/* <h3 className="mb-2.5">{items.title}</h3>
-                    <p>{items.details}</p> */}
                   </div>
                 </FadeUpOneByOneAnimation>
               ))}

@@ -21,9 +21,9 @@ const Integration = () => {
 
         <div className="relative z-10">
           <div className="absolute left-1/2 top-1/2 -z-10 flex -translate-x-1/2 -translate-y-1/2 max-sm:hidden">
-            <div className="h-[330px] w-[330px] rounded-full bg-primary-200/20 blur-[145px] xl:h-[442px] xl:w-[442px] "></div>
-            <div className="h-[330px] w-[330px] rounded-full bg-primary-200/25 blur-[145px] lg:-ml-[170px] xl:h-[442px] xl:w-[442px]"></div>
-            <div className="lg-ml-[170px] h-[330px] w-[330px] rounded-full bg-primary-200/20 blur-[145px] xl:h-[442px] xl:w-[442px]"></div>
+            <div className="h-[330px] w-[330px] rounded-full bg-[url('/images/hero-gradient.png')] blur-[145px] xl:h-[442px] xl:w-[442px] "></div>
+            <div className="h-[330px] w-[330px] rounded-full bg-[url('/images/hero-gradient.png')] blur-[145px] lg:-ml-[170px] xl:h-[442px] xl:w-[442px]"></div>
+            <div className="lg-ml-[170px] h-[330px] w-[330px] rounded-full bg-[url('/images/hero-gradient.png')] blur-[145px] xl:h-[442px] xl:w-[442px]"></div>
           </div>
 
           <div className="grid grid-cols-3  gap-8 max-lg:grid-cols-2 max-sm:grid-cols-1">

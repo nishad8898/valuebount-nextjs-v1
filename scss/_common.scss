@@ -25,7 +25,7 @@ span {
 }
 
 .mobile-menu {
-  @apply fixed right-0 top-0 z-[111111] mx-auto flex h-screen w-full translate-x-full  items-center   rounded-none bg-primary p-2.5 px-10 shadow-nav backdrop-blur transition duration-500  ease-in-out dark:bg-dark;
+  @apply fixed right-0 top-0 z-[111111] mx-auto flex h-screen w-full translate-x-full  items-center   rounded-none bg-[#ff8f66] p-2.5 px-10 shadow-nav backdrop-blur transition duration-500  ease-in-out dark:bg-dark;
   &.open {
     @apply translate-x-0;
   }

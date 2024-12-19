@@ -256,7 +256,7 @@ const Hero = () => {
             </FadeUpAnimation>
             <FadeUpAnimation className="relative col-span-12 mx-auto xl:col-span-11 xl:col-start-2">
               <div className="relative z-10">
-                <div className="absolute left-1/2 top-32 -z-10 h-[330px] w-10/12 -translate-x-1/2 rounded-full bg-primary-200/20 blur-[80px] dark:bg-primary-200/20  max-lg:top-8 max-md:-top-32 max-md:w-[330px] xl:h-[442px] 1xl:h-[442px] "></div>
+                <div className="absolute left-1/2 top-32 -z-10 h-[330px] w-10/12 -translate-x-1/2 rounded-full bg-[url('/images/hero-gradient.png')] blur-[80px] dark:bg-[url('/images/hero-gradient.png')]  max-lg:top-8 max-md:-top-32 max-md:w-[330px] xl:h-[442px] 1xl:h-[442px] "></div>
 
                 <div className="relative rounded-medium bg-white p-2.5 shadow-nav dark:bg-dark-200">
                   <Image src={videoBG} alt="service images" className="w-full rounded" />

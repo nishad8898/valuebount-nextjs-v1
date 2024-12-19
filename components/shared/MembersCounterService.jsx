@@ -20,11 +20,11 @@ const MembersCounterService = ({ border = true }) => {
             <div className="flex items-center">
               <div className="mr-6 h-[110px] w-[110px] rounded-full bg-white p-2.5 shadow-nav dark:bg-dark-200">
                 <div className=" flex h-[90px] w-[90px] items-center justify-center rounded-full border border-dashed border-gray-100 dark:border-borderColor-dark">
-                  <h3 className="text-[28px] leading-none text-primary dark:text-primary ">
+                  <h3 className="text-[28px] leading-none  text-primary dark:text-primary">
                     <span className="counterTrusted text-[28px] leading-none text-primary dark:text-primary">
                       <CounterAnimation number={10} />
                     </span>
-                    X
+                    <span className="text-[#FF4500]">X</span>
                   </h3>
                 </div>
               </div>
@@ -42,7 +42,7 @@ const MembersCounterService = ({ border = true }) => {
                     <span className="counterTrusted text-[28px] leading-none text-primary dark:text-primary">
                       <CounterAnimation number={99} />
                     </span>
-                    %
+                    <span className="text-[#FF4500]">%</span>
                   </h3>
                 </div>
               </div>

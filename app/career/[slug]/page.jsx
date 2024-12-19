@@ -43,9 +43,9 @@ const CareerSinglePage = (props) => {
           <div className="absolute -top-[1000px] left-0 right-0 h-full w-full bg-[url('/images/core-gradient.png')] bg-[length:600px_1600px] bg-center bg-no-repeat opacity-70 md:hidden"></div>
           <div className="container relative">
             <div className="absolute left-1/2 top-20 -z-10 flex -translate-x-1/2 -translate-y-1/2 max-md:hidden max-md:flex-col">
-              <div className="rounded-full bg-primary-200/20  blur-[145px] max-1xl:h-[335px]  max-1xl:w-[335px] 1xl:h-[442px] 1xl:w-[442px]"></div>
-              <div className="-ml-[170px] rounded-full  bg-primary-200/25 blur-[145px]  max-1xl:h-[335px] max-1xl:w-[335px] max-md:ml-0 1xl:h-[442px] 1xl:w-[442px]"></div>
-              <div className="-ml-[170px] rounded-full  bg-primary-200/20 blur-[145px]  max-1xl:h-[335px] max-1xl:w-[335px] max-md:ml-0 1xl:h-[442px] 1xl:w-[442px]"></div>
+              <div className="rounded-full bg-[url('/images/hero-gradient.png')]  blur-[145px] max-1xl:h-[335px]  max-1xl:w-[335px] 1xl:h-[442px] 1xl:w-[442px]"></div>
+              <div className="-ml-[170px] rounded-full  bg-[url('/images/hero-gradient.png')] blur-[145px]  max-1xl:h-[335px] max-1xl:w-[335px] max-md:ml-0 1xl:h-[442px] 1xl:w-[442px]"></div>
+              <div className="-ml-[170px] rounded-full  bg-[url('/images/hero-gradient.png')] blur-[145px]  max-1xl:h-[335px] max-1xl:w-[335px] max-md:ml-0 1xl:h-[442px] 1xl:w-[442px]"></div>
             </div>
             <div className="grid grid-cols-12 max-lg:gap-y-25 lg:gap-16">
               <div className="singlePage col-span-full max-lg:order-2 lg:col-span-8">

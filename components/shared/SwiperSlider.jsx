@@ -58,8 +58,8 @@ const SwiperSlider = () => {
             <div className="mb-7">
               <RatingStars
                 rating={testimonial.rating}
-                ratingColor={'text-paragraph dark:text-white'}
-                ratingEmptyColor={'text-[#A7A7B4] dark:text-[#646463]'}
+                ratingColor={'text-[#FF4500]'}
+                ratingEmptyColor={'text-[#A7A7B4]'}
               />
             </div>
 

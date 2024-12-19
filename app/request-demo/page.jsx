@@ -22,9 +22,9 @@ const RequestDemo = () => {
             </div>
             <div className="relative z-10 mx-auto max-w-[850px]">
               <div className="absolute left-1/2 top-1/2 -z-10 flex -translate-x-1/2 -translate-y-1/2 max-md:hidden">
-                <div className="h-[442px] w-[442px] rounded-full bg-primary-200/20 blur-[145px]"></div>
-                <div className="-ml-[170px] h-[442px] w-[442px] rounded-full bg-primary-200/25 blur-[145px]"></div>
-                <div className="-ml-[170px] h-[442px] w-[442px] rounded-full bg-primary-200/20 blur-[145px]"></div>
+                <div className="h-[442px] w-[442px] rounded-full bg-[url('/images/hero-gradient.png')] blur-[145px]"></div>
+                <div className="-ml-[170px] h-[442px] w-[442px] rounded-full bg-[url('/images/hero-gradient.png')] blur-[145px]"></div>
+                <div className="-ml-[170px] h-[442px] w-[442px] rounded-full bg-[url('/images/hero-gradient.png')] blur-[145px]"></div>
               </div>
               <div className=" rounded-medium bg-white p-2.5 shadow-nav  dark:bg-dark-200">
                 <div className=" rounded border border-dashed border-gray-100 bg-white p-12 dark:border-borderColor-dark dark:bg-dark-200 max-md:p-5  ">

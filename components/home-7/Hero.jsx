@@ -104,7 +104,7 @@ const Hero = () => {
           <FadeUpAnimation className="relative col-span-10 col-start-2 mx-auto h-full after:absolute after:left-0 after:top-0 after:z-10 after:h-full after:w-full after:bg-gradient-to-b after:from-white/0 after:from-10% after:via-white/60 after:via-30% after:to-white/100 after:to-100% after:dark:from-dark-gradient/0 after:dark:via-dark-gradient/60 after:dark:to-dark-gradient/100">
             <div className="relative z-10">
               <div className="absolute left-1/2 top-20 -z-10 flex -translate-x-1/2 -translate-y-1/2 max-md:hidden max-md:flex-col ">
-                <div className="rounded-full bg-primary-200/25  blur-[145px] max-1xl:h-[335px]  max-1xl:w-[335px] max-md:ml-0  1xl:h-[442px] 1xl:w-[442px]"></div>
+                <div className="rounded-full bg-[url('/images/hero-gradient.png')]  blur-[145px] max-1xl:h-[335px]  max-1xl:w-[335px] max-md:ml-0  1xl:h-[442px] 1xl:w-[442px]"></div>
               </div>
               <div className="absolute -top-150 left-1/2 -z-20 -translate-x-1/2">
                 <Image src={heroShapeWorld} alt="crypto-hero-light" className="inline-block dark:hidden" />

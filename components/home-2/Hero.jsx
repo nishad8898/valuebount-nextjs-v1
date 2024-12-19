@@ -33,9 +33,9 @@ const Hero = () => {
           </FadeUpAnimation>
           <FadeUpAnimation className="relative max-md:col-span-full md:z-10 md:col-span-5">
             <div className="absolute left-1/2 top-1/2 -z-10 flex -translate-x-1/2 -translate-y-1/2 max-md:hidden">
-              <div className="rounded-full bg-primary-200/20 blur-[145px]  max-1xl:h-[335px] max-1xl:w-[335px] max-lg:hidden 1xl:h-[442px] 1xl:w-[442px]"></div>
-              <div className="-ml-[170px] -mt-150 rounded-full  bg-primary-200/25 blur-[145px] max-1xl:h-[335px] max-1xl:blur-[80px] max-lg:w-[335px] max-md:ml-0 1xl:h-[442px] 1xl:w-[442px]"></div>
-              <div className="-ml-[170px] rounded-full bg-primary-200/20  blur-[145px] max-1xl:h-[335px] max-1xl:w-[335px] max-lg:hidden 1xl:h-[442px] 1xl:w-[442px]"></div>
+              <div className="rounded-full bg-[url('/images/hero-gradient.png')] blur-[145px]  max-1xl:h-[335px] max-1xl:w-[335px] max-lg:hidden 1xl:h-[442px] 1xl:w-[442px]"></div>
+              <div className="-ml-[170px] -mt-150 rounded-full  bg-[url('/images/hero-gradient.png')] blur-[145px] max-1xl:h-[335px] max-1xl:blur-[80px] max-lg:w-[335px] max-md:ml-0 1xl:h-[442px] 1xl:w-[442px]"></div>
+              <div className="-ml-[170px] rounded-full bg-[url('/images/hero-gradient.png')]  blur-[145px] max-1xl:h-[335px] max-1xl:w-[335px] max-lg:hidden 1xl:h-[442px] 1xl:w-[442px]"></div>
             </div>
             <div className="absolute -bottom-150 left-1/2 -z-10 h-full w-full -translate-x-1/2 bg-[url('/images/hero-gradient.png')]  bg-contain bg-center bg-no-repeat p-[350px] opacity-70 md:hidden"></div>
             <div className="h-full w-full">

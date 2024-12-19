@@ -2,49 +2,49 @@
   "IntegrationData": [
     {
       "id": 1,
-      "image": "/images/clients/1.png",
+      "image": "/images/partners/1.png",
       "title": "Figma",
       "details": "The prevailing view asumed lorem ipsum was born as nonsense text."
     },
     {
       "id": 2,
-      "image": "/images/clients/2.png",
+      "image": "/images/partners/2.png",
       "title": "Dropbox",
       "details": "The prevailing view asumed lorem ipsum was born as nonsense text."
     },
     {
       "id": 3,
-      "image": "/images/clients/3.png",
+      "image": "/images/partners/3.png",
       "title": "Twitter/X",
       "details": "The prevailing view asumed lorem ipsum was born as nonsense text."
     },
     {
       "id": 4,
-      "image": "/images/clients/4.png",
+      "image": "/images/partners/4.png",
       "title": "Slack",
       "details": "The prevailing view asumed lorem ipsum was born as nonsense text."
     },
     {
       "id": 5,
-      "image": "/images/clients/5.png",
+      "image": "/images/partners/5.png",
       "title": "Google Drive",
       "details": "The prevailing view asumed lorem ipsum was born as nonsense text."
     },
     {
       "id": 6,
-      "image": "/images/clients/6.png",
+      "image": "/images/partners/6.png",
       "title": "Asana",
       "details": "The prevailing view asumed lorem ipsum was born as nonsense text."
     },
     {
       "id": 7,
-      "image": "/images/clients/7.png",
+      "image": "/images/partners/7.png",
       "title": "Asana",
       "details": "The prevailing view asumed lorem ipsum was born as nonsense text."
     },
     {
       "id": 8,
-      "image": "/images/clients/8.png",
+      "image": "/images/partners/8.png",
       "title": "Asana",
       "details": "The prevailing view asumed lorem ipsum was born as nonsense text."
     }

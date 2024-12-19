@@ -18,9 +18,9 @@ const TermsCondition = () => {
           <div className="absolute -top-[800px] left-0 right-0 h-full w-full bg-[url('/images/core-gradient.png')] bg-[length:600px_1000px] bg-center bg-no-repeat opacity-70 md:hidden"></div>
           <div className="container relative !max-w-[800px]">
             <div className="absolute left-1/2 top-20 -z-10 flex -translate-x-1/2 -translate-y-1/2 max-md:hidden">
-              <div className="h-[442px] w-[442px] rounded-full bg-primary-200/20 blur-[145px]"></div>
-              <div className="-ml-[170px] h-[442px] w-[442px] rounded-full bg-primary-200/25 blur-[145px]"></div>
-              <div className="-ml-[170px] h-[442px] w-[442px] rounded-full bg-primary-200/20 blur-[145px]"></div>
+              <div className="h-[442px] w-[442px] rounded-full bg-[url('/images/hero-gradient.png')] blur-[145px]"></div>
+              <div className="-ml-[170px] h-[442px] w-[442px] rounded-full bg-[url('/images/hero-gradient.png')] blur-[145px]"></div>
+              <div className="-ml-[170px] h-[442px] w-[442px] rounded-full bg-[url('/images/hero-gradient.png')] blur-[145px]"></div>
             </div>
 
             <div className="singlePage">

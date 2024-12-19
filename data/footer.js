@@ -3,7 +3,7 @@ export const FooterData = {
   logo: '/images/logo.svg',
   logoDark: '/images/logo-light.svg',
   footerText: '',
-  copyright: `${new Date().getFullYear()} Valuebound. All Rights Reserved`,
+  copyright: `@ ${new Date().getFullYear()} Valuebound. All Rights Reserved`,
   email: 'hello@valuebound.com',
   phone: '+91 80 880 48711',
   expolre: [

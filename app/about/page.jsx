@@ -24,7 +24,7 @@ const About = () => {
                 <span className="text-[#FF4500]">Value</span>bound
               </span>
             </h1>
-            <p className="mx-auto mb-12 max-w-[590px] max-lg:mb-10">
+            <p className="mx-auto mb-12 max-w-[680px] max-lg:mb-10">
               Combining innovation with human potential to create transformative success for our clients.
             </p>
           </FadeUpAnimation>

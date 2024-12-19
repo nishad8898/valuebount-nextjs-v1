@@ -8,9 +8,9 @@ const CareerList = () => {
       <div className="absolute left-0 right-0 top-0 h-full w-full bg-[url('/images/core-gradient.png')] bg-cover bg-center bg-no-repeat opacity-70  md:hidden"></div>
       <div className="container relative">
         <div className="absolute left-1/2 top-1/2 -z-10 flex -translate-x-1/2 -translate-y-1/2 max-md:hidden max-md:flex-col">
-          <div className="rounded-full bg-primary-200/20  blur-[145px] max-1xl:h-[335px]  max-1xl:w-[335px] 1xl:h-[442px] 1xl:w-[442px]"></div>
-          <div className="-ml-[170px] rounded-full  bg-primary-200/25 blur-[145px]  max-1xl:h-[335px] max-1xl:w-[335px] max-md:ml-0 1xl:h-[442px] 1xl:w-[442px]"></div>
-          <div className="-ml-[170px] rounded-full  bg-primary-200/20 blur-[145px]  max-1xl:h-[335px] max-1xl:w-[335px] max-md:ml-0 1xl:h-[442px] 1xl:w-[442px]"></div>
+          <div className="rounded-full bg-[url('/images/hero-gradient.png')]  blur-[145px] max-1xl:h-[335px]  max-1xl:w-[335px] 1xl:h-[442px] 1xl:w-[442px]"></div>
+          <div className="-ml-[170px] rounded-full  bg-[url('/images/hero-gradient.png')] blur-[145px]  max-1xl:h-[335px] max-1xl:w-[335px] max-md:ml-0 1xl:h-[442px] 1xl:w-[442px]"></div>
+          <div className="-ml-[170px] rounded-full  bg-[url('/images/hero-gradient.png')] blur-[145px]  max-1xl:h-[335px] max-1xl:w-[335px] max-md:ml-0 1xl:h-[442px] 1xl:w-[442px]"></div>
         </div>
         <div className="mb-14 text-center">
           <p className="section-tagline">Open Positions</p>

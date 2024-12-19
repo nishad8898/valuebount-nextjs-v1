@@ -124,7 +124,7 @@ const SecondaryNavbar = ({ hideTopBar = false }) => {
                         className="ml-1 mt-1 text-paragraph duration-500 group-hover:rotate-180 dark:text-white"
                       />
                     </Link>
-                    <ul className="absolute left-0 top-12 z-10 min-w-[250px] origin-top scale-y-0 rounded-md bg-white p-5 opacity-0 duration-500  group-hover:scale-y-100 group-hover:opacity-100 dark:bg-dark-200 [&>*:not(:first-child)]:mt-2.5 [&>*:not(:last-child)]:border-b [&>*:not(:last-child)]:border-dashed [&>*:not(:last-child)]:border-borderColor dark:[&>*:not(:last-child)]:border-borderColor-dark">
+                    <ul className="absolute left-0 top-12 z-10 min-w-[280px] origin-top scale-y-0 rounded-md bg-white p-5 opacity-0 duration-500  group-hover:scale-y-100 group-hover:opacity-100 dark:bg-dark-200 [&>*:not(:first-child)]:mt-2.5 [&>*:not(:last-child)]:border-b [&>*:not(:last-child)]:border-dashed [&>*:not(:last-child)]:border-borderColor dark:[&>*:not(:last-child)]:border-borderColor-dark">
                       {menuItem.submenu.map((submenuItem) => (
                         <li
                           className="relative overflow-hidden pb-2.5 text-base capitalize text-paragraph duration-500 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0  before:bg-paragraph before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100 dark:before:bg-white"
@@ -141,13 +141,13 @@ const SecondaryNavbar = ({ hideTopBar = false }) => {
             ))}
           </ul>
 
-          <ul className="flex items-center  [&>*:not(:last-child)]:me-2.5">
+          <ul className="flex items-center max-lg:ml-auto [&>*:not(:last-child)]:me-2.5">
             <li className="max-lg:hidden">
               <Link href="/request-demo" className="btn btn-navbar btn-sm">
                 Contact us
               </Link>
             </li>
-            <li className="max-lg:inline-block lg:hidden ">
+            <li className="max-lg:inline-block lg:hidden">
               <button
                 className="mobile-menu-button relative h-10 w-10 rounded-full bg-white outline-none dark:bg-dark-200"
                 onClick={() => setInnerMobileMenu(!innerMobileMenu)}>
@@ -252,7 +252,7 @@ const SecondaryNavbar = ({ hideTopBar = false }) => {
                           className="ml-auto mt-1 text-paragraph duration-500 group-hover:rotate-180 dark:text-white"
                         />
                       </Link>
-                      <ul className="absolute left-0 top-12 z-10 min-w-[250px] origin-top scale-y-0 rounded-md bg-white p-5 opacity-0 duration-500  group-hover:scale-y-100 group-hover:opacity-100 dark:bg-dark-200 [&>*:not(:first-child)]:mt-2.5 [&>*:not(:last-child)]:border-b [&>*:not(:last-child)]:border-dashed [&>*:not(:last-child)]:border-borderColor dark:[&>*:not(:last-child)]:border-borderColor-dark">
+                      <ul className="absolute left-0 top-12 z-10 min-w-[280px] origin-top scale-y-0 rounded-md bg-white p-5 opacity-0 duration-500  group-hover:scale-y-100 group-hover:opacity-100 dark:bg-dark-200 [&>*:not(:first-child)]:mt-2.5 [&>*:not(:last-child)]:border-b [&>*:not(:last-child)]:border-dashed [&>*:not(:last-child)]:border-borderColor dark:[&>*:not(:last-child)]:border-borderColor-dark">
                         {menuItem.submenu.map((submenuItem) => (
                           <li
                             className="relative overflow-hidden pb-2.5 text-base capitalize text-paragraph duration-500 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph  before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100 dark:before:bg-white"
@@ -273,7 +273,7 @@ const SecondaryNavbar = ({ hideTopBar = false }) => {
 
               <li>
                 <Link href="/request-demo" className="btn btn-navbar btn-sm">
-                  Request Demo
+                  Contact us
                 </Link>
               </li>
             </ul>

@@ -80,8 +80,8 @@ const TimeLine = () => {
           <div className="col-span-12 lg:col-span-8 lg:pl-15">
             <div className="relative z-10">
               <div className="absolute right-20 top-1/2 -z-10 flex -translate-y-1/2 flex-col max-sm:hidden">
-                <div className="h-[330px] w-[330px] rounded-full bg-primary-200/20 blur-[145px] xl:h-[350px] xl:w-[350px]"></div>
-                <div className="h-[330px] w-[330px] rounded-full bg-primary-200/20 blur-[145px] xl:h-[350px] xl:w-[350px]"></div>
+                <div className="h-[330px] w-[330px] rounded-full bg-[url('/images/hero-gradient.png')] blur-[145px] xl:h-[350px] xl:w-[350px]"></div>
+                <div className="h-[330px] w-[330px] rounded-full bg-[url('/images/hero-gradient.png')] blur-[145px] xl:h-[350px] xl:w-[350px]"></div>
               </div>
 
               <div className="relative">

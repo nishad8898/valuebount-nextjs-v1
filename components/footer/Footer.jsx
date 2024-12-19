@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="relative overflow-hidden bg-white pt-20 dark:bg-dark-300">
       <div className="container">
         <div className="mb-20 grid grid-cols-12 max-lg:gap-y-10 max-lg:text-center">
-          <div className="col-span-12 lg:col-span-6">
+          <div className="col-span-12 lg:col-span-5">
             <Image
               src={FooterData.logo}
               alt="logo"
@@ -25,7 +25,7 @@ const Footer = () => {
             />
             <p className="max-w-[350px] max-lg:mx-auto">{FooterData.footerText}</p>
           </div>
-          <div className="col-span-12 max-lg:text-center lg:col-span-2">
+          <div className="col-span-12 max-lg:text-center lg:col-span-3">
             <h3 className="mb-8 text-lg font-medium">Explore</h3>
             <ul className="[&>*:not(:last-child)]:mb-3">
               {FooterData.expolre.map((items) => (

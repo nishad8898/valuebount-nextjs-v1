@@ -53,9 +53,9 @@ const RubustFeature = () => {
             </div>
             <div className="md:sol-span-7 relative z-10 col-span-12 lg:col-span-8">
               <div className="absolute left-1/2 top-1/2 -z-10 flex -translate-x-1/2 -translate-y-1/2 max-md:hidden max-md:flex-col">
-                <div className="rounded-full bg-primary-200/20  blur-[145px] max-1xl:h-[335px]  max-1xl:w-[335px] 1xl:h-[442px] 1xl:w-[442px]"></div>
-                <div className="-ml-[170px] rounded-full  bg-primary-200/25 blur-[145px]  max-1xl:h-[335px] max-1xl:w-[335px] max-md:ml-0 1xl:h-[442px] 1xl:w-[442px]"></div>
-                <div className="-ml-[170px] rounded-full  bg-primary-200/20 blur-[145px]  max-1xl:h-[335px] max-1xl:w-[335px] max-md:ml-0 1xl:h-[442px] 1xl:w-[442px]"></div>
+                <div className="rounded-full bg-[url('/images/hero-gradient.png')]  blur-[145px] max-1xl:h-[335px]  max-1xl:w-[335px] 1xl:h-[442px] 1xl:w-[442px]"></div>
+                <div className="-ml-[170px] rounded-full  bg-[url('/images/hero-gradient.png')] blur-[145px]  max-1xl:h-[335px] max-1xl:w-[335px] max-md:ml-0 1xl:h-[442px] 1xl:w-[442px]"></div>
+                <div className="-ml-[170px] rounded-full  bg-[url('/images/hero-gradient.png')] blur-[145px]  max-1xl:h-[335px] max-1xl:w-[335px] max-md:ml-0 1xl:h-[442px] 1xl:w-[442px]"></div>
               </div>
               <div className="relative flex  flex-col [&>*:not(:last-child)]:after:absolute [&>*:not(:last-child)]:after:bottom-0 [&>*:not(:last-child)]:after:h-0.5 [&>*:not(:last-child)]:after:w-full [&>*:not(:last-child)]:after:overflow-hidden [&>*:not(:last-child)]:after:content-[url('/images/home-8-img/seperator.png')] dark:[&>*:not(:last-child)]:after:content-[url('/images/home-8-img/seperator-dark.png')] max-lg:[&>*:not(:last-child)]:after:hidden">
                 <div className="relative grid grid-cols-2 max-lg:grid-cols-1 [&>*:nth-child(2n+1)]:before:absolute [&>*:nth-child(2n+1)]:before:left-0 [&>*:nth-child(2n+1)]:before:top-1/2 [&>*:nth-child(2n+1)]:before:h-full [&>*:nth-child(2n+1)]:before:w-[1px] [&>*:nth-child(2n+1)]:before:-translate-y-1/2 [&>*:nth-child(2n+1)]:before:content-[url('/images/payment/coreborder-right.svg')] dark:[&>*:nth-child(2n+1)]:before:content-[url('/images/payment/coreborder-right-dark.svg')] max-lg:[&>*:nth-child(2n+1)]:before:hidden">

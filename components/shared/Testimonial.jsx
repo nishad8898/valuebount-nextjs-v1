@@ -16,9 +16,9 @@ const Testimonial = () => {
         </div>
         <div className="relative z-10">
           <div className="max-lg:item-center absolute left-1/2 top-[37%] -z-10 flex -translate-x-1/2 -translate-y-1/2 max-lg:flex-col max-md:hidden">
-            <div className="h-[350px] w-[350px] rounded-full bg-primary-200/20 blur-[80px] lg:h-[442px] lg:w-[442px] lg:blur-[145px] "></div>
-            <div className="h-[350px] w-[350px] rounded-full bg-primary-200/25 blur-[80px] lg:-ml-[170px] lg:h-[442px] lg:w-[442px] lg:blur-[145px]"></div>
-            <div className="h-[350px] w-[350px] rounded-full bg-primary-200/20 blur-[80px] lg:-ml-[170px] lg:h-[442px] lg:w-[442px] lg:blur-[145px] "></div>
+            <div className="h-[350px] w-[350px] rounded-full bg-[url('/images/hero-gradient.png')] blur-[80px] lg:h-[442px] lg:w-[442px] lg:blur-[145px] "></div>
+            <div className="h-[350px] w-[350px] rounded-full bg-[url('/images/hero-gradient.png')] blur-[80px] lg:-ml-[170px] lg:h-[442px] lg:w-[442px] lg:blur-[145px]"></div>
+            <div className="h-[350px] w-[350px] rounded-full bg-[url('/images/hero-gradient.png')] blur-[80px] lg:-ml-[170px] lg:h-[442px] lg:w-[442px] lg:blur-[145px] "></div>
           </div>
           <div className=" mb-12 flex flex-wrap justify-center gap-6 gap-y-8 max-md:flex-col">
             {TestimonialData.slice(0, 5).map((testimonial, i) => (
